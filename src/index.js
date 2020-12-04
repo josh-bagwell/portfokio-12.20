@@ -2,14 +2,15 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import "./fonts.css";
+import "./App.css";
 import Nav from "./nav";
-// import App from "./App";
+import About from "./about";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
     <React.StrictMode>
         <Nav />
-        {/* <App /> */}
+        <About />
     </React.StrictMode>,
     document.getElementById("root")
 );

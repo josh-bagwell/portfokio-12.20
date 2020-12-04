@@ -11,7 +11,7 @@ function Nav() {
                 <a href="/">Josh Bagwell</a>
             </div>
             <div className="nav-anchors">
-                <a href="/">Social</a>
+                <a href="/">Resume</a>
                 <a href="/">Contact</a>
             </div>
         </div>
