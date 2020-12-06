@@ -8,9 +8,9 @@
     max-width: var(--container-width);
     height: calc(100vh - 259px);
     border: 1px solid var(--black);
-    animation: 2s 4s fadeIn forwards;
-    -webkit-transition: all 1s ease;
-    transition: all 1s ease;
+    animation: 1s 2s fadeIn forwards;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
 }
 
 .about-content {
