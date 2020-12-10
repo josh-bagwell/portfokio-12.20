@@ -1,4 +1,5 @@
-.nav {
+.nav,
+nav {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -23,7 +24,7 @@
     animation: 1s linear fadeIn;
 }
 
-.nav-title a {
+.nav-title div {
     font-size: calc(30px + 2vmin);
     text-transform: uppercase;
     letter-spacing: 8px;
@@ -32,9 +33,10 @@
     text-decoration: none;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
+    cursor: pointer;
 }
 
-.nav-title a:hover {
+.nav-title div:hover {
     letter-spacing: 10px;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
@@ -50,16 +52,22 @@
     animation: 1s 1s fadeIn forwards;
 }
 
-.nav-anchors a {
+.links {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-anchors div {
     padding: 5px 25px;
     letter-spacing: 3px;
     text-decoration: none;
-    color: inherit;
+    color: #B2B2B2;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
+    cursor: pointer;
 }
 
-.nav-anchors a:hover {
+.nav-anchors div:hover {
     padding: 5px 25px;
     letter-spacing: 3px;
     text-decoration: none;
@@ -68,7 +76,7 @@
     transition: all 500ms ease;
 }
 
-.nav-anchors a::after {
+.nav-anchors div::after {
     content: "";
     position: relative;
     display: flex;
@@ -83,7 +91,7 @@
     transform: translate(-50%, 0%);
 }
 
-.nav-anchors a:hover::after {
+.nav-anchors div:hover::after {
     border-bottom: 1px solid;
     width: 97%;
     left: 49%;
@@ -96,7 +104,7 @@
         padding: 30px 0;
     }
 
-    .nav-title a {
+    .nav-title div {
         font-size: calc(30px + 2vmin);
     }
 
@@ -107,7 +115,7 @@
 
 @media screen and (max-width: 600px) {
 
-    .nav-title a {
+    .nav-title div {
         font-size: calc(16px + 1vmin);
         letter-spacing: 5px;
     }
