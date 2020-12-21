@@ -1,16 +1,24 @@
 import "./Nav.css";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Nav() {
     return (
-        <div className="nav">
+        <div id="navbar" className="nav">
             <div className="nav-anchors">
-                <Link className="links" to="/about">
+                <NavLink
+                    className="links"
+                    activeClassName="active active-line"
+                    to="/about"
+                >
                     <div>About</div>
-                </Link>
-                <Link className="links" to="/projects">
+                </NavLink>
+                <NavLink
+                    className="links"
+                    activeClassName="active active-line"
+                    to="/projects"
+                >
                     <div>Projects</div>
-                </Link>
+                </NavLink>
             </div>
             <div className="nav-title">
                 <Link className="links" to="/">
@@ -18,12 +26,20 @@ function Nav() {
                 </Link>
             </div>
             <div className="nav-anchors">
-                <Link className="links" to="/resume">
+                <NavLink
+                    className="links"
+                    activeClassName="active active-line"
+                    to="/resume"
+                >
                     <div>Resume</div>
-                </Link>
-                <Link className="links" to="/contact">
+                </NavLink>
+                <NavLink
+                    className="links"
+                    activeClassName="active active-line"
+                    to="/contact"
+                >
                     <div>Contact</div>
-                </Link>
+                </NavLink>
             </div>
         </div>
     );

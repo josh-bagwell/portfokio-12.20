@@ -2,8 +2,8 @@ import "./about.css";
 
 function About() {
     return (
-        <div className="about">
-            <div className="about-content">
+        <div className="">
+            <div className="">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Similique officiis cum architecto magni earum debitis dolorem
                 tempora, nostrum, voluptatibus dolorum numquam quaerat dolor

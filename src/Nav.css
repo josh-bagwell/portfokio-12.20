@@ -49,7 +49,7 @@ nav {
     color: #B2B2B2;
     text-transform: uppercase;
     opacity: 0;
-    animation: 1s 1s fadeIn forwards;
+    animation: 1s fadeIn forwards;
 }
 
 .links {
@@ -68,6 +68,15 @@ nav {
 }
 
 .nav-anchors div:hover {
+    padding: 5px 25px;
+    letter-spacing: 3px;
+    color: var(--hover);
+    text-decoration: none;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.active div {
     padding: 5px 25px;
     letter-spacing: 3px;
     text-decoration: none;
@@ -91,7 +100,8 @@ nav {
     transform: translate(-50%, 0%);
 }
 
-.nav-anchors div:hover::after {
+.nav-anchors div:hover::after,
+.active-line div::after {
     border-bottom: 1px solid;
     width: 97%;
     left: 49%;
@@ -108,6 +118,10 @@ nav {
         font-size: calc(30px + 2vmin);
     }
 
+    .nav-title div:hover {
+        letter-spacing: 8px;
+    }
+
     .nav-anchors {
         display: none;
     }
@@ -117,6 +131,10 @@ nav {
 
     .nav-title div {
         font-size: calc(16px + 1vmin);
+        letter-spacing: 5px;
+    }
+
+    .nav-title div:hover {
         letter-spacing: 5px;
     }
 

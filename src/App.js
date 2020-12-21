@@ -8,10 +8,14 @@ export default function App() {
         <Router>
             <div>
                 <Nav />
-                <Switch>
-                    <Route path="/" exact component={Home}></Route>
-                    <Route path="/about" component={About}></Route>
-                </Switch>
+                <div className="container">
+                    <div className="content">
+                        <Switch>
+                            <Route path="/" exact component={Home}></Route>
+                            <Route path="/about" component={About}></Route>
+                        </Switch>
+                    </div>
+                </div>
             </div>
         </Router>
     );
