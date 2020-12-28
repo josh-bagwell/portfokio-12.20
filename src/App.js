@@ -1,6 +1,7 @@
 import About from "./about";
 import Home from "./home";
 import Nav from "./nav";
+import Resume from "./resume";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 export default function App() {
@@ -13,6 +14,7 @@ export default function App() {
                         <Switch>
                             <Route path="/" exact component={Home}></Route>
                             <Route path="/about" component={About}></Route>
+                            <Route path="/resume" component={Resume}></Route>
                         </Switch>
                     </div>
                 </div>

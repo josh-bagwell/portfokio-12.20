@@ -12,13 +12,13 @@ function Nav() {
                 >
                     <div>About</div>
                 </NavLink>
-                <NavLink
+                {/* <NavLink
                     className="links"
                     activeClassName="active active-line"
                     to="/projects"
                 >
                     <div>Projects</div>
-                </NavLink>
+                </NavLink> */}
             </div>
             <div className="nav-title">
                 <Link className="links" to="/">
@@ -33,13 +33,13 @@ function Nav() {
                 >
                     <div>Resume</div>
                 </NavLink>
-                <NavLink
+                {/* <NavLink
                     className="links"
                     activeClassName="active active-line"
                     to="/contact"
                 >
                     <div>Contact</div>
-                </NavLink>
+                </NavLink> */}
             </div>
         </div>
     );

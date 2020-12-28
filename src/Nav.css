@@ -11,17 +11,16 @@ nav {
     height: auto;
     margin: auto;
     font-family: 'Lato', sans-serif;
-    animation: 1s linear fadeIn;
+    animation: 500ms linear fadeIn;
 }
 
 .nav-title {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin: auto;
     max-width: 550px;
     padding: 40px 0;
-    animation: 1s linear fadeIn;
+    animation: 500ms linear fadeIn;
 }
 
 .nav-title div {
@@ -49,7 +48,7 @@ nav {
     color: #B2B2B2;
     text-transform: uppercase;
     opacity: 0;
-    animation: 1s fadeIn forwards;
+    animation: 500ms fadeIn forwards;
 }
 
 .links {
