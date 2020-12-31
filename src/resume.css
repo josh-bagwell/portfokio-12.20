@@ -27,12 +27,20 @@
 
 .resume-left .sub-content:last-child {
     margin: 0;
+    padding: 30px 30px 32px;
 }
 
 .resume-left .sub-content {
     border: 1px solid var(--black);
     padding: 30px;
     margin: 0 auto 30px;
+}
+
+.brk {
+    border: none;
+    border-bottom: 1px solid var(--title-border-btm);
+    margin: 15px 0;
+    width: 50%;
 }
 
 .title {
@@ -56,6 +64,7 @@
 
     .resume-left .sub-content:last-child {
         margin: 0 auto 30px;
+        padding: 15px;
     }
 }
 
@@ -69,6 +78,11 @@
 
     .resume-left .sub-content {
         margin: 0 auto 15px;
+        padding: 15px;
+    }
+
+    .sub-content {
+        padding: 15px;
     }
 
     .resume-left .sub-content:last-child {
