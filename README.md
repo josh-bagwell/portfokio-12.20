@@ -1,6 +1,6 @@
 Hello,
 
-My name is Josh and this is my portfolio site. This was built in React and was attempted to keep simple.
+My name is Josh and this is my portfolio site. This was built in React and was attempted to be kept simple.
 
 The nav was done with React Router and the mobile nav has utilized some hooks.
 
