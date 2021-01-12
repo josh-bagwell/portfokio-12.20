@@ -120,9 +120,9 @@
         letter-spacing: 8px;
     }
 
-    /* .nav-anchors {
+    .nav-anchors {
         display: none;
-    } */
+    }
 
     .active div {
         padding: 0;
