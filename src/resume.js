@@ -6,12 +6,15 @@ export default function Resume() {
             <div className="resume-left">
                 <div className="sub-content">
                     <div className="title">Profile</div>
-                    Passionate Front-End Developer with 5 years of experience
-                    with designing UI, building and maintaining on-site
-                    engagement tools as well as working with design teams to
-                    support projects and clients. Proficient in HTML, CSS,
-                    JQuery and Javascript; plus Adobe XD, Photoshop,
-                    Illustrator, Sketch and Invision&nbsp;prototyping.
+                    Creative, innovative Front-End Developer with the ability to
+                    both design and build UI for web and mobile applications.
+                    Significant experience in cross-browser compatibility, tool
+                    development, mock-ups, graphic design, and project
+                    management from concept through delivery. Effectively
+                    collaborates with marketing, project, and content teams.
+                    Meets process standards and deadlines. Builds client
+                    relationships through presentations, communication, problem
+                    solving, and&nbsp;engagement.
                 </div>
                 <div className="sub-content">
                     <div className="title">Skills</div>
@@ -19,6 +22,7 @@ export default function Resume() {
                         <li>HTML, CSS, Javascript, JQuery</li>
                         <li>GIT, Gulp, JSON, Nunjucks</li>
                         <li>Bootstrap, Semantic UI, Sass</li>
+                        <li>Agile & Scrum</li>
                         <li>Adobe XD</li>
                         <li>Adobe Photoshop</li>
                         <li>Adobe Illustrator</li>
@@ -63,10 +67,25 @@ export default function Resume() {
                     Listrak, Fort Collins, CO
                     <br />
                     <br />
+                    Design and build responsive user acquisition tools with
+                    cross-browser compatibility for a retail digital marketing
+                    automation platform offering email marketing, on-site
+                    engagement, text messaging, customer insights, and
+                    cross-channel orchestration. work with the design team to
+                    build mock-ups using HTML, CSS, JavaScript, and jQuery.
+                    Monitor client website performance and corrects front-end
+                    issues. Partner with design team, project managers, and tech
+                    staff to ensure on-time delivery and effective alignment
+                    with process&nbsp;standards.
+                    <br />
+                    <br />
                     <ul>
                         <li>
-                            Building design mock-ups using HTML, CSS, JavaScript
-                            and&nbsp;JQuery.
+                            Conceptualized and executed new processes, tools,
+                            and features – contributing to 270 projects, with
+                            326 actions, on 163 accounts, and achieving an
+                            average efficiency rating of 107 percent across
+                            all&nbsp;tasks.
                         </li>
                         <li>
                             Collaborating closely with the design team, project
@@ -74,24 +93,33 @@ export default function Resume() {
                             during all phases of&nbsp;delivery.
                         </li>
                         <li>
-                            Building user acquisition tools that are responsive
-                            and usable with cross-browser&nbsp;compatibility.
+                            Maintained an error rate on all projects below 8
+                            percent for the&nbsp;year.
                         </li>
                         <li>
                             Monitor client’s website performance and rectifying
                             front-end-related issues to our&nbsp;products.
                         </li>
                         <li>
-                            Communicating technical issues in an understandable
-                            manner to the team and&nbsp;clients.
+                            Exceeded client satisfaction goals with scores of
+                            8/10 in 1st and 2nd quarters, 9/10 in 3rd and 4th
+                            quarters, and an overall 9/10 client
+                            satisfaction&nbsp;rating.
                         </li>
                         <li>
                             Contribute to the development of new functionality,
                             processes, tools and&nbsp;features.
                         </li>
                         <li>
-                            Deliver tasks according to project and process
-                            standards (quality, end date,&nbsp;etc.)
+                            Collaborated with high-end clients to improve
+                            efficiencies and save costs while meeting their
+                            project goals and staying within the project scope
+                            and&nbsp;timeline.
+                        </li>
+                        <li>
+                            Incorporated new features into templates for SMS
+                            subscriptions, which gave clients more options to
+                            accomplish their&nbsp;goals.
                         </li>
                     </ul>
                     <div className="brk"></div>
@@ -100,31 +128,26 @@ export default function Resume() {
                     Getac, Irvine, CA
                     <br />
                     <br />
-                    Direct design projects, from conception through completion.
-                    Design user interfaces for mobile and web applications as
-                    well as prototyping and wire-framing. Develop brand
-                    identity, create presentations, e-blasts, and social media
-                    ads, posts, and banners. Leverage motion graphics, CSS and
-                    HTML skills to optimize web content. Utilize interpersonal
-                    skills to resolve daily challenges, build rapport with
-                    departments, establish trusting relationships with vendors,
-                    and coordinate video/photo shoots. Implement design
-                    strategies, launch new products, and
-                    plan/execute&nbsp;events.
+                    Directed design projects from concept through delivery,
+                    including user interfaces for mobile and web applications,
+                    prototyping, and wire-framing. Leveraged motion graphics,
+                    CSS, and HTML to optimize web content. Built relationships
+                    with vendors. Coordinated video/photo shoots. Executed
+                    design strategies for new products and events. Developed
+                    brand awareness initiatives, customer-facing presentations,
+                    and new&nbsp;tools.
                     <br />
                     <br />
                     <ul>
                         <li>
-                            Oversaw creative for newborn corporate social media
-                            campaign, growing Facebook likes by 297%, LinkedIn
-                            followers by 68%, and Twitter followers by 19% in
-                            year&nbsp;one.
+                            Collaborated on the company’s brand development,
+                            with creation of presentations, e-blasts, social
+                            media ads, and&nbsp;banners.
                         </li>
                         <li>
-                            Maintain strong relationship with company President
-                            and executive staff, collaborating on brand
-                            awareness initiatives, customer-facing presentations
-                            and new&nbsp;tools.
+                            Improved social media engagements (Facebook by 297%;
+                            LinkedIn by 68%; Twitter by 19%) for a creative
+                            project involving newborn&nbsp;products.
                         </li>
                         <li>
                             Enhanced company brand, managing innovative app
@@ -137,11 +160,6 @@ export default function Resume() {
                     <br />
                     Southern California/Colorado
                     <br />
-                    <br />
-                    Work with clients to design and implement new UI compenents
-                    and features for mobile and web. Advise clients on customer
-                    relations, communications, development, strategies and time
-                    and project&nbsp;management.
                     <div className="brk"></div>
                     Graphic Designer
                     <br />
