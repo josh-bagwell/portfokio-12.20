@@ -36,6 +36,7 @@ export default function Resume() {
                 <div className="sub-content">
                     <div className="title">Soft Skills</div>
                     <ul>
+                        <li>Collaboration</li>
                         <li>Innovative</li>
                         <li>Detailed</li>
                         <li>Creative</li>
@@ -44,7 +45,6 @@ export default function Resume() {
                         <li>Proactive</li>
                         <li>Problem Solving</li>
                         <li>Adaptable</li>
-                        <li>Open-mindedness</li>
                     </ul>
                 </div>
                 <div className="sub-content">
