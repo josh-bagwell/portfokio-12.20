@@ -27,7 +27,7 @@ export default function Resume() {
                         <li>Adobe Photoshop</li>
                         <li>Adobe Illustrator</li>
                         <li>Sketch, Invision</li>
-                        <li>Website, Mobile & Digital Design</li>
+                        <li>Web & Mobile Design</li>
                         <li>Prototyping</li>
                         <li>Wireframes</li>
                         <li>UI/UX Design</li>
