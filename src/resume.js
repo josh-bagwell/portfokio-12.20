@@ -37,7 +37,7 @@ export default function Resume() {
                     <div className="title">Soft Skills</div>
                     <ul>
                         <li>Collaboration</li>
-                        <li>Innovative</li>
+                        <li>Teamwork</li>
                         <li>Detailed</li>
                         <li>Creative</li>
                         <li>Communication</li>
