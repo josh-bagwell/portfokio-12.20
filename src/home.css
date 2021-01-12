@@ -1,0 +1,77 @@
+.main-para span {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 5px auto;
+    line-height: normal;
+}
+
+.main-sm {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.main-lg {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+span:nth-child(1) {
+    opacity: 0;
+    animation: 500ms 2s fadeIn forwards;
+}
+
+span:nth-child(2) {
+    opacity: 0;
+    animation: 500ms 2.5s fadeIn forwards;
+}
+
+span:nth-child(3) {
+    opacity: 0;
+    animation: 500ms 3s fadeIn forwards;
+}
+
+span:nth-child(4) {
+    opacity: 0;
+    animation: 500ms 3.5s fadeIn forwards;
+}
+
+span:nth-child(5) {
+    opacity: 0;
+    animation: 500ms 4s fadeIn forwards;
+}
+
+span:nth-child(6) {
+    opacity: 0;
+    animation: 500ms 4.5s fadeIn forwards;
+}
+
+span:nth-child(7) {
+    opacity: 0;
+    animation: 500ms 5s fadeIn forwards;
+}
+
+@media screen and (max-width: 1024px) {
+    .main-sm {
+        font-size: 20px;
+    }
+
+    .main-lg {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .main-para span {
+        letter-spacing: 3px;
+    }
+
+    .main-sm {
+        font-size: 14px;
+    }
+
+    .main-lg {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,82 @@
+#mobile-nav {
+    display: none;
+}
+
+.mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100vh;
+    background-color: var(--site-BG);
+    text-align: left;
+    border: none;
+    border-right: 1px solid var(--black);
+    padding: 100px 50px 100px 2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s ease-in-out;
+    z-index: 1;
+    transform: translateX(-100%);
+}
+
+.mobile-links div {
+    padding: 5px 0;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #B2B2B2;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+
+/* .mobile-links div:hover {
+    padding: 5px 0;
+    letter-spacing: 3px;
+    color: var(--hover);
+    text-decoration: none;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+} */
+
+.active-mobile div {
+    padding: 5px 0;
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: var(--black);
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.mobile-links div::after {
+    content: "";
+    position: relative;
+    display: flex;
+    width: 0;
+    height: 1px;
+    border: none;
+    left: 50%;
+    opacity: 0;
+    border-bottom: 1px solid;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    transform: translate(-50%, 0%);
+}
+
+.mobile-links div:hover::after,
+.active-line-mobile div::after {
+    border-bottom: 1px solid;
+    width: 97%;
+    left: 49%;
+    opacity: 1;
+}
+
+
+@media screen and (max-width: 1024px) {
+    #mobile-nav {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 600px) {}
