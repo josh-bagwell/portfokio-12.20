@@ -19,7 +19,7 @@ export default function Resume() {
                 <div className="sub-content">
                     <div className="title">Skills</div>
                     <ul>
-                        <li>HTML, CSS, Javascript, JQuery</li>
+                        <li>HTML, CSS, Javascript, JQuery, React</li>
                         <li>GIT, Gulp, JSON, Nunjucks</li>
                         <li>Bootstrap, Semantic UI, Sass</li>
                         <li>Agile & Scrum</li>
