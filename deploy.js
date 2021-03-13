@@ -12,6 +12,6 @@ ghpages.publish(
     },
     function (err) {
         if (err) console.error(err)
-        else console.log(`done`)
+        else console.log(`Deployed to prod`)
     }
 )
