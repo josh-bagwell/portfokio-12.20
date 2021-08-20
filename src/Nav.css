@@ -10,7 +10,7 @@
     height: auto;
     margin: auto;
     font-family: 'Lato', sans-serif;
-    animation: 500ms linear fadeIn;
+    /* animation: 500ms linear fadeIn; */
 }
 
 .nav-title {
@@ -35,7 +35,7 @@
 }
 
 .nav-title div:hover {
-    letter-spacing: 10px;
+    letter-spacing: 9px;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }

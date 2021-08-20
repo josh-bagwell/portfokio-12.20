@@ -15,13 +15,13 @@ code {
   justify-content: center;
   margin: 60px auto 0;
   width: 100%;
-  opacity: 0;
+  opacity: 1;
   max-width: var(--container-width);
   height: calc(100vh - 259px);
   border: 1px solid var(--black);
-  animation: 500ms 1s fadeIn forwards;
+  /* animation: 500ms 1s fadeIn forwards;
   -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  transition: all 500ms ease; */
 }
 
 .content {
